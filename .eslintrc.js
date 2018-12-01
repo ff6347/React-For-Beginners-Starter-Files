@@ -1,4 +1,5 @@
 module.exports = {
+  "parser": "babel-eslint",
     extends: [
       'unobtrusive',
       'eslint:recommended',
@@ -31,7 +32,7 @@ module.exports = {
 // If this isn't set, any propTypes wrapped in
 // a function will be skipped.
     },
-  
+
     rules: {
       "react/jsx-uses-react": "error",
       "react/jsx-uses-vars": "error",
@@ -49,4 +50,3 @@ module.exports = {
       'no-console': ['off','always']
     }
   };
-  
